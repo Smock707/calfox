@@ -15,11 +15,11 @@
 <h2>Data that stays on your device</h2>
 <p><strong>Calendars.</strong> With your permission, CalFox reads the events in Apple Calendar, including Google, Outlook and iCloud calendars added there, so it can plan around what is already booked. It never adds, changes or deletes a calendar event. You choose which calendars it reads.</p>
 <p><strong>Apple Health.</strong> With your permission, CalFox reads sleep, heart rate, heart rate variability, breathing, activity, workouts, mindful minutes and similar readings from Apple Health to plan a day you can do. It never writes to Health. Health readings are used on your device and are not stored in iCloud. If you turn on iCloud sync, your score history can include a short label for why a score moved, such as a hard workout the day before.</p>
-<p><strong>What you enter.</strong> Your habits, goals, check-in answers, completed activities and scores live in the app's private storage on your device and in your device backups.</p>
+<p><strong>What you enter.</strong> Your habits, goals, check-in answers, completed activities, scores and facts (the notes and limits on More → Privacy → Facts) live in the app's private storage on your device and in your device backups.</p>
 <p><strong>The widgets.</strong> The Up Next widget reads today's plan and today's all-day calendar events from the app's storage on your device. The fox widget reads today's plan, the kind of each item on it, your wake time and bedtime, tomorrow's first item and your fox's name from the same storage. The widgets send nothing anywhere.</p>
 
 <h2>iCloud sync (optional, off until you turn it on)</h2>
-<p>If you turn on Sync with iCloud in More, CalFox keeps a copy of what you enter and your scores in the private iCloud database that belongs to your Apple account, so your other devices show the same plan. Apple stores it inside your account; we cannot read it. Health readings and your Gemini key are not synced.</p>
+<p>If you turn on Sync with iCloud in More, CalFox keeps a copy of what you enter, your scores and your facts (the notes and limits) in the private iCloud database that belongs to your Apple account, so your other devices show the same plan. Apple stores it inside your account; we cannot read it. Health readings and your Gemini key are not synced.</p>
 
 <h2>Data that leaves your device: Gemini (optional)</h2>
 <p>CalFox can use Google's Gemini to word suggestions, read patterns, find habits you could do together, learn how long your activities take, suggest what leads to a Break and check the times in a day it has planned. This only happens if you paste your own Gemini API key into More. The key is kept in your device's Keychain, only on this device. With a key saved, CalFox sends short text straight from your iPhone to Google:</p>
@@ -31,9 +31,9 @@
 <li>when your fox words an experiment, the habit's name and what the experiment tests, like a time of day;</li>
 <li>when CalFox learns how long your activities and calendar events take and which days they fit, their names;</li>
 <li>when you pick what leads to a Break, the Break's name, to suggest the states most likely to lead to a slip;</li>
-<li>when CalFox checks a day it has planned, the names and times of what it planned for you (habits, meals, breaks and suggestions), your wake time, bedtime and work hours, and the kinds and times of your calendar events, never their titles, to catch times that don't make sense, such as lunch late in the evening.</li>
+<li>when CalFox checks a day it has planned, the names and times of what it planned for you (habits, meals, breaks and suggestions), the kinds and times of your calendar events, never their titles, and the facts marked with a dot on More → Privacy → Facts: your wake and wind-down times, your work or school hours and whether you can step away, your meal times, your caffeine and exercise limits, and the likes, dislikes and things to avoid you typed in or your fox learned from your log. Never your goals, your conditions or anything from Health. This catches times that don't make sense, such as lunch late in the evening.</li>
 </ul>
-<p>Nothing else is sent: no Health numbers, no calendar notes, attendees or locations, no name, no email. Google handles this text under Google's terms for your key. On Google's free tier, Google may use it to improve its products and people at Google may read it; on a paid plan it does not. Google requires Gemini API users to be 18 or older. More shows how much has been sent. Everything in CalFox works without a key.</p>
+<p>Nothing else is sent: no Health numbers, no calendar notes, attendees or locations, no name, no email. Google handles this text under Google's terms for your key. On Google's free tier, Google may use it to improve its products and people at Google may read it; on a paid plan it does not. Google requires Gemini API users to be 18 or older. More → Privacy lists what was sent lately, and the text of each ask. Everything in CalFox works without a key.</p>
 
 <h2>Notifications</h2>
 <p>Reminders for your Runup, your Rundown and your habits are scheduled on your device. They are optional and can be turned off in More or in iOS Settings. With iCloud sync on, Apple may send silent notifications to tell the app that new data is waiting in your iCloud.</p>
@@ -42,7 +42,7 @@
 <p>If you test CalFox through TestFlight, Apple shares crash reports and any feedback or screenshots you choose to send with the developer, under Apple's TestFlight terms.</p>
 
 <h2>Deleting your data</h2>
-<p><strong>In the app:</strong> More → Erase all my data deletes your habits, goals, scores and history. With iCloud sync on, it deletes them from your other devices and your iCloud too. Remove your Gemini key in More, and turn off calendar and Health access in iOS Settings.</p>
+<p><strong>In the app:</strong> More → Erase all my data deletes your habits, goals, scores, history and facts. With iCloud sync on, it deletes them from your other devices and your iCloud too. Remove your Gemini key in More, and turn off calendar and Health access in iOS Settings.</p>
 <p><strong>On your iPhone:</strong> deleting the app deletes everything it stored on the device. To delete an iCloud copy, go to iOS Settings → your name → iCloud → Manage Storage → CalFox.</p>
 <p>We hold no copy of your data, so there is nothing to delete on our side.</p>
 
